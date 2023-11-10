@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "my-trening-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anakonder.github.io/goit-react-hw-07-phonebook/",
+  "homepage": "https://anakonder.github.io/my-trening-app/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.3",

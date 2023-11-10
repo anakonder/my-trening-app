@@ -1,0 +1,20 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginTitle {
+  margin-bottom: 30px;
+}
+
+.loginLabel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginBtn {
+  width: 100%;
+}
