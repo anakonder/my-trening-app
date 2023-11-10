@@ -1,0 +1,39 @@
+.counterContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 200px;
+  /* height: 100px; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+
+  background-color: rgb(40, 39, 39);
+  color: white;
+  /* border: 1px solid red; */
+}
+
+.btnContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.increment {
+  background-color: green;
+  color: white;
+}
+
+.decrement {
+  background-color: red;
+  color: white;
+}
