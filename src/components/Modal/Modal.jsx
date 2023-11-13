@@ -1,11 +1,11 @@
-import { LoginForm } from '../LoginForm/LoginForm'
+
 import css from './Modal.module.css'
 
-export const Modal = ({closeModalLogin}) => {
+export const Modal = ({closeModalLogin, children}) => {
     return(
         <div className={css.modalWraper}>
             <div className={css.modalBody}>
-                <LoginForm/>
+                {children}
             </div>
         </div>
     )

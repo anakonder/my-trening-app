@@ -18,3 +18,13 @@
 .loginBtn {
   width: 100%;
 }
+
+/* .loginInput:hover {
+} */
+
+.loginInput:hover,
+.loginInput:focus {
+  box-sizing: content-box;
+  border: solid lightblue 5px;
+  border-radius: 2px;
+}
