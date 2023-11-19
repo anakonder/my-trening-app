@@ -20,6 +20,14 @@ class LoginForm extends Component {
             email: this.state.email,
             password: this.state.password
         })
+        this.setState({
+            email: '',
+            password: '',
+            passwordRepeat: '',
+        })
+        this.props.closeModalLogin()
+       
+        
     } 
 
 

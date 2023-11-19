@@ -5,6 +5,7 @@ import { Modal } from "../Modal/Modal";
 
 import css from './App.module.css'
 import LoginForm from "components/LoginForm/LoginForm";
+import { saveToLocalStorage } from "helpers/entWithLS";
 
 
 
@@ -23,6 +24,7 @@ class App extends Component{
 
   createUser = (data) => {
     console.log('data ==>', data)
+    saveToLocalStorage(data)
   }
 
   render() {
@@ -33,7 +35,7 @@ class App extends Component{
           <Counter/>
           {this.state.isModalLoginOpen &&
             <Modal closeModalLogin={this.closeModalLogin}>
-              <LoginForm createUser={this.createUser}/>
+              <LoginForm createUser={this.createUser} closeModalLogin={this.closeModalLogin} />
             </Modal>}
         </div>      
       </div>
